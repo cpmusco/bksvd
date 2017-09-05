@@ -35,6 +35,8 @@ end
 if nargin < 2
     k = 6;
 end
+k = min(k,min(size(A)));
+
 if nargin < 3
     iter = 3;
 end
