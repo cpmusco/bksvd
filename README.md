@@ -65,7 +65,7 @@ For PCA, `A`'s rows (data points) should be mean-centered before computing the S
 ```
 [U,S,V] = bksvd(A,10,4,10,true);
 ```
-Here `V` contains loading vector for the top 10 principal components. `U*S` can be taken as a dimensionality for the data to 10 components.
+Here `V` contains loading vector for the top 10 principal components. `U*S` can be taken as a dimensionality reduction for the data to 10 components.
 
 ### Parameter Tuning
 
