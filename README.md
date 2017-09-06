@@ -3,7 +3,7 @@
 Simple MATLAB code for iterative computing an SVD or PCA via the randomized block Krylov method analyzed in 
 [Randomized Block Krylov Methods for Stronger and Faster Approximate Singular Value Decomposition](https://papers.nips.cc/paper/5735-randomized-block-krylov-methods-for-stronger-and-faster-approximate-singular-value-decomposition)
 
-## Installataion
+## Installation
 
 Download `bksvd.m`, [add to MATLAB path](https://www.mathworks.com/help/matlab/ref/addpath.html), or include directly in project directory.
 
