@@ -1,6 +1,6 @@
 function [U,S,V] = bksvd(A, k, iter, bsize, center)
-%-------------------------------------------------------------------------------------
-% Randomized Block Krylov Iteration for truncated Singular Value Decomposition
+%--------------------------------------------------------------------------
+% Randomized block Krylov iteration for truncated singular value decomposition
 % Computes approximate top singular vectors and corresponding values
 % Described in Musco, Musco, 2015 (http://arxiv.org/abs/1504.05477)
 %
@@ -23,7 +23,7 @@ function [U,S,V] = bksvd(A, k, iter, bsize, center)
 %  * V : a matrix whose columns are approximate top right singular vectors for A
 %
 %  U*S*V' is a near optimal rank-k approximation for A
-%-------------------------------------------------------------------------------------
+%--------------------------------------------------------------------------
 
 % Check input arguments and set defaults.
 if nargin > 5
