@@ -30,7 +30,7 @@ if nargin > 5
     error('bksvd:TooManyInputs','requires at most 5 input arguments');
 end
 if nargin < 1
-    error('bksvd:TooFewInputs','requires at least 1 input arguments');
+    error('bksvd:TooFewInputs','requires at least 1 input argument');
 end
 if nargin < 2
     k = 6;
