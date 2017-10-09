@@ -47,7 +47,7 @@ if nargin < 5
     center = false;
 end
 if(k < 1 || iter < 1 || bsize < k)
-    error('bksvd:BadInput','one or more inputs outside required range');
+    error('sisvd:BadInput','one or more inputs outside required range');
 end
 
 % Calculate row mean if rows should be centered.
